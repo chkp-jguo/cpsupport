@@ -13,6 +13,6 @@ provider "checkpoint" {
 }
 
 module "checkpoint" {
-   source = "/Users/john/OneDrive/RUN/Projects/HashiCorp/Consul/nia-module/modules/checkpoint"
+   source = "modules/checkpoint"
    services = var.services
 }
